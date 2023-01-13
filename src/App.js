@@ -1,13 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import NavbarComp from './Components/NavbarComp';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        Changes!
-      </header>
+      <NavbarComp />
+      <h1>Hello Jerk</h1>
     </div>
   );
 }
